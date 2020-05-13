@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login and SignUp</title>
+  <!-- Bootstrap CDN-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- OwlCarousel CDN for image slider-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+  <!-- Font awesome CDN for icons-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  <section class="login-block">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4 login-sec">
+              <h2 class="text-center">Login Now</h2>
+              <form class="login-form">
+        <div class="form-group">
+          <i class="fa fa-user" style="font-size: 12px"></i>
+          <label for="exampleInputEmail1" class="text-uppercase" style="font-family: sans-serif; font-size: 12px">Username</label>
+          <input type="text" class="form-control" placeholder="Enter your username">
+          
+        </div>
+        <div class="form-group">
+          <i class="fa fa-key" style="font-size: 12px"></i>
+          <label for="exampleInputPassword1" class="text-uppercase" style="font-family: sans-serif; font-size: 12px">Password</label>
+          <input type="password" class="form-control" placeholder="Enter your Password">
+        </div>
+        <a href="#" style="margin-left:170px; font-weight: bold; font-size: 14px; color: #DE6262;" class="forgot"><u> Forgot Your Password?</u></a>
+        <button type="submit" class="btn-block login-button" style="border-radius: 20px; margin-top: 20px">Login</button>
+        <div class="strike">
+          <span>OR</span>
+        </div>
+        <div class="social-login">Login with your Social Media Account</div>
+        <div class="social-media-icons d-flex justify-content-center" >
+          <ul>
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+          </ul>
+      </div>
+      </form>
+      <div class="copy-text">Don't have an Account? <a href="">Sign Up</a></div>
+    </div>
+    <div class="col-md-8 banner-sec">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 750px">
+           <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="https://images.unsplash.com/1/work-stations-plus-espresso.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="banner-text">
+                <h2>TeachToLearn</h2>
+                <p>We provide video-based lessons covering entire NEB and TU syllabus. Hurry up and join to access all subjects videos for free.</p>
+            </div>  
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block img-fluid" src="https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="banner-text">
+              <h2>TeachToLearn</h2>
+              <p>We provide video-based lessons covering entire NEB and TU syllabus. Hurry up and join to access all subjects videos for free.</p>
+          </div>  
+        </div>
+      </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_960_720.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="banner-text">
+                <h2>TeachToLearn</h2>
+                <p>We provide video-based lessons covering entire NEB and TU syllabus. Hurry up and join to access all subjects videos for free.</p>
+            </div>  
+          </div>
+        </div>
+      </div>         
+    </div>
+  </div>
+</div>
+</section>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true,
+                items: 1
+            });
+        });
+    </script>
+</body>
+</html>
