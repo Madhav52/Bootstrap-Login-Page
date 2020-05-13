@@ -17,4 +17,6 @@ Input text field glow on focus</br>
 
 Zoom effects on hover text (Forgot Password)</br>
 
+Autoplay paused on hover in image slider section </br>
+
 ![](demo.gif)
